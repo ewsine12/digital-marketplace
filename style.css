@@ -1,1 +1,38 @@
 
+body {
+    font-family: Arial, sans-serif;
+    margin:0; padding:0;
+    background:#f7f7f7; color:#333;
+}
+
+header {
+    background:#4CAF50; color:white;
+    padding:20px; text-align:center;
+}
+
+section {
+    padding:20px;
+}
+
+input, button {
+    padding:10px; margin:5px;
+    border-radius:5px; border:1px solid #ccc;
+}
+
+button {
+    background:#4CAF50; color:white; cursor:pointer; border:none;
+}
+
+button:hover {
+    background:#45a049;
+}
+
+#products, #admin-content {
+    display:flex; flex-wrap:wrap;
+}
+
+.product-card, .user-card, .order-card {
+    background:white; padding:10px;
+    margin:10px; border-radius:8px;
+    border:1px solid #ccc; width:200px;
+}
